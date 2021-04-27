@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "surfline-mobile-react",
-    "slug": "surfline-mobile-react",
+    "name": "MySurfline",
+    "slug": "MySurfline",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,16 +17,21 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.surflinegh.mysurfline",
+      "buildNumber": "1.0.0"
     },
     "android": {
+      "package": "com.surflinegh.mysurfline",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Surfline Mobile App"
   }
 }
